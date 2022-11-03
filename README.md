@@ -2,9 +2,9 @@
 
 ## Mudando o Icpne da Aplicação utilizando image aseerts
 
-![img.png](img.png)
+![img.png](images/img.png)
 
-![img_1.png](img_1.png)
+![img_1.png](images/img_1.png)
 
 ## Imagens Estaticas
 Para colocar imagens na nossa app elas devem ser postas na pasta drawable 
@@ -17,3 +17,14 @@ Para oclutar a barra de titulo do app devemos colocar o codigo a seguir no arqui
         ...
     </application>
 ```
+
+## Linear Layouts
+
+![img_2.png](images/img_2.png)
+
+### Tipos de Linear Layauts
+
+![img.png](img.png)
+
+## Mensagens com Toast
+Pequenas mensagens que aparecem na tela funcionam por alguns segundos e desaparecem suavemente
