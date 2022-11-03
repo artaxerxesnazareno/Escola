@@ -28,3 +28,16 @@ Para oclutar a barra de titulo do app devemos colocar o codigo a seguir no arqui
 
 ## Mensagens com Toast
 Pequenas mensagens que aparecem na tela funcionam por alguns segundos e desaparecem suavemente
+
+# Habilidades
+- Alterar icone da app
+- Usar imagens estaticas na view
+- ligar componetes da view com codigo java
+- Linear Layauts
+- Multiplos idiomas
+- Validação com mensagens de erro
+- Mensagens toast
+- usar cores em codigo java
+  - Constantes
+  - Hexadecimal
+  - Cores declaradas no XML
