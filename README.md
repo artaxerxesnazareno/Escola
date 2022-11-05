@@ -9,13 +9,11 @@
 ## Imagens Estaticas
 Para colocar imagens na nossa app elas devem ser postas na pasta drawable 
 ### Ocultar a barra de status no Android 
-Para oclutar a barra de titulo do app devemos colocar o codigo a seguir no arquiv AndoridManifest.xml
+Para oclutar a barra de titulo do app devemos colocar o codigo a seguir no arquivo themes.xml que se encorntra em `res/values/themes.xml`
 ```xml
-    <application
-        ...
-        android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" >
-        ...
-    </application>
+...
+<style name="Theme.NomeAplicação" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+...
 ```
 
 ## Linear Layouts
@@ -29,6 +27,25 @@ Para oclutar a barra de titulo do app devemos colocar o codigo a seguir no arqui
 ## Mensagens com Toast
 Pequenas mensagens que aparecem na tela funcionam por alguns segundos e desaparecem suavemente
 
+## Orientação Landscape Variation
+
+Conifiguração de variação de tela
+![img_1.png](img_1.png)
+
+### Portraint Mode
+#### Forçando o portraint mode
+No arquivo AndroidManifest.xml em activity adicionamos o codigo abaixo
+```xml
+...
+<activity
+            android:name=".MainActivity"
+                    android:exported="true"
+                    android:configChanges="orientation"
+                    android:screenOrientation="portrait">        
+...
+```
+
+---
 # Habilidades
 - Alterar icone da app
 - Usar imagens estaticas na view
@@ -41,3 +58,8 @@ Pequenas mensagens que aparecem na tela funcionam por alguns segundos e desapare
   - Constantes
   - Hexadecimal
   - Cores declaradas no XML
+- Mudar imagem apartir do codigo java
+- tornando componentes ocultos
+- ocultar o teclado
+- Landscape Variantion(variação de layoute de tela)
+- Manter a tela fixa sem Landscape Variantion
